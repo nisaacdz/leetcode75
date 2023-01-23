@@ -1,6 +1,6 @@
 impl Solution {
     pub fn max_product(nums: Vec<i32>) -> i32 {
-        let (mut min, mut max, mut ans) = (1, 1, 0);
+        let (mut min, mut max, mut ans) = (1, 1, i32::MIN);
 
         for num in nums {
             let (a, b) = (min * num, max * num);
