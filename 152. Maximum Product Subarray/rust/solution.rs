@@ -1,5 +1,3 @@
-struct Solution;
-
 impl Solution {
     pub fn max_product(nums: Vec<i32>) -> i32 {
         let (mut min, mut max, mut ans) = (1, 1, 0);
